@@ -1,0 +1,61 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+body{
+    background: rgb(74, 175, 244);
+    background: radial-gradient(circle, rgb(186, 204, 221)32%, rgb(237, 238, 241) 100%);
+}
+.centered-form{
+    margin-top: 60px;
+    
+    
+}
+.details-form{
+    width: 50%;
+}
+.centered-form .panel{
+	background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+    padding: 10px 20px;
+    
+}
+
+.video_details{
+    
+	
+     
+    .video_detail{
+        margin: 10px auto;
+        width: 500px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+    padding: 10px 20px;   
+    
+    .title{
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .description{
+        text-align: center;
+        
+    }
+    }
+}
+
+.nav-bar {
+    background: rgba(117, 192, 236, 0.8);
+    a{
+        color: #fff;
+        font-size: 16px;
+    }
+}
+
